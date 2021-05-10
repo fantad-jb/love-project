@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f5f3;
+}
+
+.big-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #0000001a;
+  padding: 20px 0;
+}
+
+.search-box {
+  width: 20%;
+  display: inline-block;
+}
+
+.fa-search {
+  color: #0000001a;
+  position: absolute;
+  left: 46px;
+  top: 31px;
+}
+
+.find-post {
+  width: 100%;
+  border: 1px solid #0000001a;
+  padding: 6px;
+  border-radius: 30px;
+  color: #0000001a;
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+.title-box {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 0;
+
+}
+
+.social-box {
+  display: inline-block;
+  text-align: center;
+  width: 19%;
+}
+
+.fa-twitter {
+  text-align: center;
+  color: #00000073;
+  margin-right: 10px;
+  pointer-events: stroke;
+}
+
+.fa-facebook-f {
+  text-align: center;
+  color: #00000073;
+  margin-right: 10px;
+  pointer-events: stroke;
+}
+
+.fa-instagram {
+  text-align: center;
+  color: #00000073;
+  margin-right: 10px;
+  pointer-events: stroke;
+}
+
+.fab:hover {
+  color: #000000;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #c2991d;
+}
+
+.slide-box {
+  padding: 30px 150px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.slide-avatar {
+  width: 30%;
+  margin: 10px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.title-content {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.items-link {
+  color: #c2991d;
+  text-decoration: none;
+}
+
+.author {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home-posts {
+  margin-top: 50px;
+  padding: 0 150px 50px;
+}
+
+.post-box {
+  margin-right: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.post-avatar {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.title-post {
+  font-family: 'Pacifico', cursive;
+}
+
+.description-post {
+  font-family: 'Nunito', sans-serif;
+}
+
+.post-line {
+  border-bottom: 4px dotted grey;
+}
+
+.footer {
+  background-color: #000;
+  padding: 50px 150px;
+  text-align: center;
+}
+
+.title-footer-box {
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.social-footer {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.fa-twitter-square {
+  color: #fff;
+}
+
+.fa-facebook-square {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.fa-instagram-square {
+  color: #fff;
+  margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+
+  .header {
+    border-bottom: 1px solid #0000001a;
+    padding: 20px 100px;
+    text-align: center;
+  }
+
+  .search-box {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .find-post {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .fa-search {
+    visibility: hidden;
+  }
+
+  .title-box {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .social-box {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 450px) {
+    .big-container {
+      width: 450px;
+    }
+  }
+
+}
